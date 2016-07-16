@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D87AB689-0B13-4E3C-8ADC-7EFE3D29CB80}" SchemaVersion="72">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{D87AB689-0B13-4E3C-8ADC-7EFE3D29CB80}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Windspeed" ID="{6B489CAD-0CD1-4832-9BAB-842108393D2F}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="OutdoorIndoor" ID="{A8AC2F86-5CC1-4181-AE19-AAB33EAA8D3C}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Windspeed_Filtered" ID="{13541333-99B0-43C4-9B88-057390F21CE7}">
+					<PropertyList>
+						<Property Name="FilterTimeDown" Type="Real64" Value="25"/>
+						<Property Name="FilterTimeUp" Type="Real64" Value="25"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="RTPCRamping" Type="int16" Value="2"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

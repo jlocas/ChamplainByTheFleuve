@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PluginInfo Project="Wwise_Project_Showcase2" Platform="Windows" BasePlatform="Windows" Motion="false">
+	<Plugins>
+		<Plugin Name="Wwise Parametric EQ" ID="6881283" DLL="ParametricEQ"/>
+		<Plugin Name="Wwise RoomVerb" ID="7733251" DLL="AkRoomVerb"/>
+	</Plugins>
+</PluginInfo>

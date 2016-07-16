@@ -1,0 +1,34 @@
+Event	ID	Name			Wwise Object Path	Notes
+	461632412	Stop_Music_Drum			\Default Work Unit\Stop_Music_Drum	
+	880344869	Play_Music_MMMM_R			\Default Work Unit\Play_Music_MMMM_R	
+	880344891	Play_Music_MMMM_L			\Default Work Unit\Play_Music_MMMM_L	
+	1140571360	Play_Music_Whispers_R			\Default Work Unit\Play_Music_Whispers_R	
+	1140571390	Play_Music_Whispers_L			\Default Work Unit\Play_Music_Whispers_L	
+	1313828912	Play_Music_Drone			\Default Work Unit\Play_Music_Drone	
+	1724973405	Stop_Music_Qanun			\Default Work Unit\Stop_Music_Qanun	
+	2408160217	Play_Music_Bell			\Default Work Unit\Play_Music_Bell	
+	2540437426	Stop_Music_Voice			\Default Work Unit\Stop_Music_Voice	
+	2797320662	Play_Music_Drum			\Default Work Unit\Play_Music_Drum	
+	2920946223	Stop_Music_Bell			\Default Work Unit\Stop_Music_Bell	
+	2921655591	Stop_Music_MMMM_R			\Default Work Unit\Stop_Music_MMMM_R	
+	2921655609	Stop_Music_MMMM_L			\Default Work Unit\Stop_Music_MMMM_L	
+	2932040671	Play_Music			\Default Work Unit\Play_Music	
+	3209232840	Play_Music_Voice			\Default Work Unit\Play_Music_Voice	
+	3485948690	Stop_Music_Drone			\Default Work Unit\Stop_Music_Drone	
+	3497548362	Stop_Music_Whispers_R			\Default Work Unit\Stop_Music_Whispers_R	
+	3497548372	Stop_Music_Whispers_L			\Default Work Unit\Stop_Music_Whispers_L	
+	3880669223	Play_Music_Qanun			\Default Work Unit\Play_Music_Qanun	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	45955017	Music_MMMMM-R	W:\Projects\Showcase2\Wwise_Project_Showcase2\.cache\Windows\SFX\Music_MMMMM-R_9A50971C.wem		\Interactive Music Hierarchy\Default Work Unit\Music_MMMM-R\Music_MMMMM-R		229899
+	285880032	Music_Voice	W:\Projects\Showcase2\Wwise_Project_Showcase2\.cache\Windows\SFX\Music_Voice_02_9A50971C_68505341.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Voice\Music_Voice		485695
+	505116381	Music_MMMMM-L	W:\Projects\Showcase2\Wwise_Project_Showcase2\.cache\Windows\SFX\Music_MMMMM-L_9A50971C.wem		\Interactive Music Hierarchy\Default Work Unit\Music_MMMM-L\Music_MMMMM-L		229899
+	588522034	Music_Drum	W:\Projects\Showcase2\Wwise_Project_Showcase2\.cache\Windows\SFX\Music_Drum_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Drum\Music_Drum		580894
+	596706498	Music_Qanun_01	W:\Projects\Showcase2\Wwise_Project_Showcase2\.cache\Windows\SFX\Music_Qanun_02_9A50971C.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Qanun\Music_Qanun_01		158124
+	645124843	Music_Voice	W:\Projects\Showcase2\Wwise_Project_Showcase2\.cache\Windows\SFX\Music_Voice_9A50971C_68505341.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Voice\Music_Voice		472558
+	753775566	Music_Drone	W:\Projects\Showcase2\Wwise_Project_Showcase2\.cache\Windows\SFX\Music_Drone_9A50971C.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Drone\Music_Drone		2171794
+	780765732	Music_Whispers-R	W:\Projects\Showcase2\Wwise_Project_Showcase2\.cache\Windows\SFX\Music_Whispers-R_9A50971C.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Whispers-R\Music_Whispers-R		415592
+	832519218	Music_Qanun_01	W:\Projects\Showcase2\Wwise_Project_Showcase2\.cache\Windows\SFX\Music_Qanun_01_9A50971C.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Qanun\Music_Qanun_01		161895
+	994672031	Music_Bell	W:\Projects\Showcase2\Wwise_Project_Showcase2\.cache\Windows\SFX\Music_Bell_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Bell\Music_Bell		968112
+	1041237481	Music_Whispers-L	W:\Projects\Showcase2\Wwise_Project_Showcase2\.cache\Windows\SFX\Music_Whispers-L_9A50971C.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Whispers-L\Music_Whispers-L		408113
+

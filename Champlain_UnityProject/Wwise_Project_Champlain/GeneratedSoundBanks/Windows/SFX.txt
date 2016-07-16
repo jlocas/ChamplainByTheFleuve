@@ -1,0 +1,38 @@
+Event	ID	Name			Wwise Object Path	Notes
+	7039761	Stop_Birds_Loop			\Default Work Unit\Ambient\Stop_Birds_Loop	
+	161356273	Play_Birds_B			\Default Work Unit\Ambient\Play_Birds_B	
+	161356274	Play_Birds_A			\Default Work Unit\Ambient\Play_Birds_A	
+	396058644	Play_Wind_Forest_Doorway			\Default Work Unit\Ambient\Play_Wind_Forest_Doorway	
+	2587252700	Play_Wind_Forest			\Default Work Unit\Ambient\Play_Wind_Forest	
+	3129997211	Play_Birds_Loop			\Default Work Unit\Ambient\Play_Birds_Loop	
+	3173136834	Stop_Wind			\Default Work Unit\Ambient\Stop_Wind	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1610807734	Windspeed_Filtered			\Default Work Unit\Windspeed_Filtered	
+	1726592700	Windspeed			\Default Work Unit\Windspeed	
+	2814051022	OutdoorIndoor			\Default Work Unit\OutdoorIndoor	
+
+Effect plug-ins	ID	Name	Type				Notes
+	199513604	Wind_Whistle (Custom)	Wwise Parametric EQ			
+	676322095	Wind_Whistle (Custom)	Wwise Parametric EQ			
+	761379213	Wind_Whistle (Custom)	Wwise Parametric EQ			
+	1062827094	Wind_Whistle (Custom)	Wwise Parametric EQ			
+	2722833862	Wind_Background	Wwise Parametric EQ			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	29265	Wind_Background	W:\Projects\Showcase2\Showcase_Unity\Wwise_Project_Showcase2\.cache\Windows\SFX\Noise_Loop_9A50971C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wind\Wind_Forest_Doorway\Wind_Background		181549
+	3133815	AMB_Birds_Oneshot_B_07	W:\Projects\Showcase2\Showcase_Unity\Wwise_Project_Showcase2\.cache\Windows\SFX\AMB_Birds_Oneshot_B_07_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Birds_B\AMB_Birds_Oneshot_B_07		457048
+	95275201	AMB_Birds_Oneshot_A_01	W:\Projects\Showcase2\Showcase_Unity\Wwise_Project_Showcase2\.cache\Windows\SFX\AMB_Birds_Oneshot_A_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Birds_A\AMB_Birds_Oneshot_A_01		303472
+	167170494	Forest_Wind_Leaves_Loop	W:\Projects\Showcase2\Showcase_Unity\Wwise_Project_Showcase2\.cache\Windows\SFX\Forest_Wind_Leaves_Loop_9A50971C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wind\Wind_Forest_Doorway\Forest_Wind_Leaves_Loop		214469
+	229694062	AMB_Birds_Oneshot_A_06	W:\Projects\Showcase2\Showcase_Unity\Wwise_Project_Showcase2\.cache\Windows\SFX\AMB_Birds_Oneshot_A_06_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Birds_A\AMB_Birds_Oneshot_A_06		1131476
+	364263947	AMB_Birds_Oneshot_A_02	W:\Projects\Showcase2\Showcase_Unity\Wwise_Project_Showcase2\.cache\Windows\SFX\AMB_Birds_Oneshot_A_02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Birds_A\AMB_Birds_Oneshot_A_02		596844
+	530981565	AMB_Birds_Oneshot_A_05	W:\Projects\Showcase2\Showcase_Unity\Wwise_Project_Showcase2\.cache\Windows\SFX\AMB_Birds_Oneshot_A_05_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Birds_A\AMB_Birds_Oneshot_A_05		1172760
+	538091757	AMB_Birds_Oneshot_B_08	W:\Projects\Showcase2\Showcase_Unity\Wwise_Project_Showcase2\.cache\Windows\SFX\AMB_Birds_Oneshot_B_08_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Birds_B\AMB_Birds_Oneshot_B_08		1135080
+	570087756	AMB_Birds_Oneshot_B_10	W:\Projects\Showcase2\Showcase_Unity\Wwise_Project_Showcase2\.cache\Windows\SFX\AMB_Birds_Oneshot_B_10_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Birds_B\AMB_Birds_Oneshot_B_10		1987256
+	769118660	AMB_Birds_Oneshot_A_04	W:\Projects\Showcase2\Showcase_Unity\Wwise_Project_Showcase2\.cache\Windows\SFX\AMB_Birds_Oneshot_A_04_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Birds_A\AMB_Birds_Oneshot_A_04		923712
+	769736805	AMB_Birds_Oneshot_B_11	W:\Projects\Showcase2\Showcase_Unity\Wwise_Project_Showcase2\.cache\Windows\SFX\AMB_Birds_Oneshot_B_11_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Birds_B\AMB_Birds_Oneshot_B_11		2290100
+	779014219	AMB_Birds_Oneshot_B_09	W:\Projects\Showcase2\Showcase_Unity\Wwise_Project_Showcase2\.cache\Windows\SFX\AMB_Birds_Oneshot_B_09_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Birds_B\AMB_Birds_Oneshot_B_09		1391792
+	880985500	AMB_Birds_Loop_12	W:\Projects\Showcase2\Showcase_Unity\Wwise_Project_Showcase2\.cache\Windows\SFX\AMB_Birds_Loop_12_6C93F882.wem		\Actor-Mixer Hierarchy\Default Work Unit\Birds_Loop\AMB_Birds_Loop_12		353976
+	910828445	AMB_Birds_Oneshot_A_03	W:\Projects\Showcase2\Showcase_Unity\Wwise_Project_Showcase2\.cache\Windows\SFX\AMB_Birds_Oneshot_A_03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Birds_A\AMB_Birds_Oneshot_A_03		695284
+	936912565	AMB_Birds_Loop_13	W:\Projects\Showcase2\Showcase_Unity\Wwise_Project_Showcase2\.cache\Windows\SFX\AMB_Birds_Loop_13_533E9CCC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Birds_Loop\AMB_Birds_Loop_13		244157
+

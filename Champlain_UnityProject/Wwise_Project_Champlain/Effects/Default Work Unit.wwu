@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C71929D4-490B-44F1-8CC9-AD928462FD59}" SchemaVersion="72">
+	<Effects>
+		<WorkUnit Name="Default Work Unit" ID="{C71929D4-490B-44F1-8CC9-AD928462FD59}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="Wind_Background" ID="{F07E3F1A-5BFA-41B6-B88E-D67697B21D79}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FilterTypeBand1" Type="int32" Value="2"/>
+						<Property Name="FilterTypeBand2" Type="int32" Value="0"/>
+						<Property Name="FrequencyBand1" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{BF2ED2E1-CEF3-4D02-8293-73B946B6DF6E}" ShortID="384639255">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Windspeed" ID="{6B489CAD-0CD1-4832-9BAB-842108393D2F}" WorkUnitID="{D87AB689-0B13-4E3C-8ADC-7EFE3D29CB80}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{702E6D09-18E3-4325-BB3D-DDDF60E0730C}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="5"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>102.08972</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>SCurve</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>214.94895</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="FrequencyBand2" Type="Real32" Value="849"/>
+						<Property Name="OnOffBand3" Type="bool" Value="False"/>
+						<Property Name="OutputLevel" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{B035E0CB-3F08-456C-8639-1D244AC44A78}" ShortID="563127346">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Windspeed" ID="{6B489CAD-0CD1-4832-9BAB-842108393D2F}" WorkUnitID="{D87AB689-0B13-4E3C-8ADC-7EFE3D29CB80}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{A5930BB0-91E2-4BF1-A5CC-B6B913F78F2B}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-17.12854</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>SCurve</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>0.68081</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="ProcessLFE" Type="bool" Value="False"/>
+						<Property Name="QFactorBand1" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{43A69CEE-B94A-4AC7-BF72-262CCBC41E8A}" ShortID="124311843">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Windspeed" ID="{6B489CAD-0CD1-4832-9BAB-842108393D2F}" WorkUnitID="{D87AB689-0B13-4E3C-8ADC-7EFE3D29CB80}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{AB4559E2-7634-495D-80A5-794396CD34EF}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>1</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>SCurve</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>6.78742</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+				<Effect Name="Wind_Whistle" ID="{193D174B-3664-4F2A-92FE-B1B3C6BFD1C4}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FilterTypeBand1" Type="int32" Value="2"/>
+						<Property Name="FilterTypeBand2" Type="int32" Value="2"/>
+						<Property Name="FilterTypeBand3" Type="int32" Value="2"/>
+						<Property Name="FrequencyBand1" Type="Real32" Value="605">
+							<RTPCList>
+								<RTPC Name="" ID="{73977826-EE11-4EAA-AD15-B99939966FA0}" ShortID="707410636"/>
+							</RTPCList>
+						</Property>
+						<Property Name="OnOffBand2" Type="bool" Value="False"/>
+						<Property Name="OnOffBand3" Type="bool" Value="False"/>
+						<Property Name="OutputLevel" Type="Real32" Value="24"/>
+						<Property Name="ProcessLFE" Type="bool" Value="False"/>
+						<Property Name="QFactorBand1" Type="Real32" Value="40"/>
+						<Property Name="QFactorBand2" Type="Real32" Value="10"/>
+						<Property Name="QFactorBand3" Type="Real32" Value="10"/>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
+	</Effects>
+</WwiseDocument>

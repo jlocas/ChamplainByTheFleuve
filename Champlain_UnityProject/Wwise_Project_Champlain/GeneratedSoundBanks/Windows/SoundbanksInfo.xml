@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="118">
+	<RootPaths>
+		<ProjectRoot>W:\Projects\Showcase2\Showcase_Unity\Wwise_Project_Showcase2\</ProjectRoot>
+		<SourceFilesRoot>W:\Projects\Showcase2\Showcase_Unity\Wwise_Project_Showcase2\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>W:\Projects\Showcase2\Showcase_Unity\Wwise_Project_Showcase2\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>W:\Projects\Showcase2\Showcase_Unity\Wwise_Project_Showcase2\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="393239870" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
+			<ShortName>SFX</ShortName>
+			<Path>SFX.bnk</Path>
+			<IncludedEvents>
+				<Event Id="161356274" Name="Play_Birds_A" ObjectPath="\Events\Default Work Unit\Ambient\Play_Birds_A" MaxAttenuation="100.000000"/>
+				<Event Id="161356273" Name="Play_Birds_B" ObjectPath="\Events\Default Work Unit\Ambient\Play_Birds_B" MaxAttenuation="100.000000"/>
+				<Event Id="3129997211" Name="Play_Birds_Loop" ObjectPath="\Events\Default Work Unit\Ambient\Play_Birds_Loop"/>
+				<Event Id="2587252700" Name="Play_Wind_Forest" ObjectPath="\Events\Default Work Unit\Ambient\Play_Wind_Forest"/>
+				<Event Id="396058644" Name="Play_Wind_Forest_Doorway" ObjectPath="\Events\Default Work Unit\Ambient\Play_Wind_Forest_Doorway" MaxAttenuation="75.000000"/>
+				<Event Id="7039761" Name="Stop_Birds_Loop" ObjectPath="\Events\Default Work Unit\Ambient\Stop_Birds_Loop" MaxAttenuation="0.000000"/>
+				<Event Id="3173136834" Name="Stop_Wind" ObjectPath="\Events\Default Work Unit\Ambient\Stop_Wind" MaxAttenuation="0.000000"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="29265" Language="SFX">
+					<ShortName>Noise_Loop.wav</ShortName>
+					<Path>SFX\Noise_Loop_9A50971C.wem</Path>
+				</File>
+				<File Id="3133815" Language="SFX">
+					<ShortName>AMB_Birds_Oneshot_B_07.wav</ShortName>
+					<Path>SFX\AMB_Birds_Oneshot_B_07_9E69E797.wem</Path>
+				</File>
+				<File Id="95275201" Language="SFX">
+					<ShortName>AMB_Birds_Oneshot_A_01.wav</ShortName>
+					<Path>SFX\AMB_Birds_Oneshot_A_01_9E69E797.wem</Path>
+				</File>
+				<File Id="167170494" Language="SFX">
+					<ShortName>Forest_Wind_Leaves_Loop.wav</ShortName>
+					<Path>SFX\Forest_Wind_Leaves_Loop_9A50971C.wem</Path>
+				</File>
+				<File Id="229694062" Language="SFX">
+					<ShortName>AMB_Birds_Oneshot_A_06.wav</ShortName>
+					<Path>SFX\AMB_Birds_Oneshot_A_06_9E69E797.wem</Path>
+				</File>
+				<File Id="364263947" Language="SFX">
+					<ShortName>AMB_Birds_Oneshot_A_02.wav</ShortName>
+					<Path>SFX\AMB_Birds_Oneshot_A_02_9E69E797.wem</Path>
+				</File>
+				<File Id="530981565" Language="SFX">
+					<ShortName>AMB_Birds_Oneshot_A_05.wav</ShortName>
+					<Path>SFX\AMB_Birds_Oneshot_A_05_9E69E797.wem</Path>
+				</File>
+				<File Id="538091757" Language="SFX">
+					<ShortName>AMB_Birds_Oneshot_B_08.wav</ShortName>
+					<Path>SFX\AMB_Birds_Oneshot_B_08_9E69E797.wem</Path>
+				</File>
+				<File Id="570087756" Language="SFX">
+					<ShortName>AMB_Birds_Oneshot_B_10.wav</ShortName>
+					<Path>SFX\AMB_Birds_Oneshot_B_10_9E69E797.wem</Path>
+				</File>
+				<File Id="769118660" Language="SFX">
+					<ShortName>AMB_Birds_Oneshot_A_04.wav</ShortName>
+					<Path>SFX\AMB_Birds_Oneshot_A_04_9E69E797.wem</Path>
+				</File>
+				<File Id="769736805" Language="SFX">
+					<ShortName>AMB_Birds_Oneshot_B_11.wav</ShortName>
+					<Path>SFX\AMB_Birds_Oneshot_B_11_9E69E797.wem</Path>
+				</File>
+				<File Id="779014219" Language="SFX">
+					<ShortName>AMB_Birds_Oneshot_B_09.wav</ShortName>
+					<Path>SFX\AMB_Birds_Oneshot_B_09_9E69E797.wem</Path>
+				</File>
+				<File Id="880985500" Language="SFX">
+					<ShortName>AMB_Birds_Loop_12.wav</ShortName>
+					<Path>SFX\AMB_Birds_Loop_12_6C93F882.wem</Path>
+				</File>
+				<File Id="910828445" Language="SFX">
+					<ShortName>AMB_Birds_Oneshot_A_03.wav</ShortName>
+					<Path>SFX\AMB_Birds_Oneshot_A_03_9E69E797.wem</Path>
+				</File>
+				<File Id="936912565" Language="SFX">
+					<ShortName>AMB_Birds_Loop_13.wav</ShortName>
+					<Path>SFX\AMB_Birds_Loop_13_533E9CCC.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C5CF7748-9DF6-4BB6-BAE9-A3A20A397A53}" SchemaVersion="72">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{C5CF7748-9DF6-4BB6-BAE9-A3A20A397A53}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="SFX" ID="{9AC3852E-A397-4CF2-89BA-299157ABB386}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Birds_Loop" ID="{E166F439-FCD7-42A2-AAAC-28F579325326}" WorkUnitID="{A39304BC-B968-4E4D-90C6-812D1914E193}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Birds_B" ID="{323A2768-42D0-43E6-AC86-74338F1ADEEA}" WorkUnitID="{A39304BC-B968-4E4D-90C6-812D1914E193}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_Wind" ID="{4C82C9E3-3E34-44EE-A074-A86063C51C19}" WorkUnitID="{A39304BC-B968-4E4D-90C6-812D1914E193}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Wind_Forest_Doorway" ID="{9254AC59-3B1C-4593-91EE-5AA929659F49}" WorkUnitID="{A39304BC-B968-4E4D-90C6-812D1914E193}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Birds_A" ID="{08CBBA9F-FFDB-4692-AF4C-1039FF467920}" WorkUnitID="{A39304BC-B968-4E4D-90C6-812D1914E193}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_Birds_Loop" ID="{1C2734DA-CA08-4D5D-A0B9-944B15B5CB32}" WorkUnitID="{A39304BC-B968-4E4D-90C6-812D1914E193}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Wind_Forest" ID="{FA70AF51-8F9B-4FC7-8018-0FC2601122B9}" WorkUnitID="{A39304BC-B968-4E4D-90C6-812D1914E193}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

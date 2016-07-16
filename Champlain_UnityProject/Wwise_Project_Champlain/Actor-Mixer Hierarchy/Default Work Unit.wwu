@@ -1,0 +1,1474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0B5738FE-1EAE-4CE3-9B0A-2AB735315338}" SchemaVersion="72">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{0B5738FE-1EAE-4CE3-9B0A-2AB735315338}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="Wind" ID="{3B123828-5451-4FC3-A742-7A6B2E8D8E8A}" ShortID="664645363">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="AMB" ID="{E9335857-D3D4-49B9-A28F-218D6DA8727C}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<BlendContainer Name="Wind_Forest" ID="{528D7CEB-2AF5-4B36-A9A2-2DD180FAC4B4}" ShortID="941766372">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<RTPCList>
+										<RTPC Name="" ID="{CAA164CD-33ED-4A70-9EC4-37E54186E99F}" ShortID="37219283">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="OutdoorIndoor" ID="{A8AC2F86-5CC1-4181-AE19-AAB33EAA8D3C}" WorkUnitID="{D87AB689-0B13-4E3C-8ADC-7EFE3D29CB80}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{E7F40CD5-4538-4ADF-A9A5-7704C8B65268}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-100</YPos>
+														<Flags>5</Flags>
+														<SegmentShape>InvertedSCurve</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>100</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{3AFED2C4-F26E-4CF0-9D8D-7A52EFF121D4}" ShortID="1060373026">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="OutdoorIndoor" ID="{A8AC2F86-5CC1-4181-AE19-AAB33EAA8D3C}" WorkUnitID="{D87AB689-0B13-4E3C-8ADC-7EFE3D29CB80}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{339509E6-0EFA-4281-9E24-B1FAAC7643A9}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>-200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{00D2E52B-845A-4349-BC9C-478270296F61}" ShortID="263696414">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="OutdoorIndoor" ID="{A8AC2F86-5CC1-4181-AE19-AAB33EAA8D3C}" WorkUnitID="{D87AB689-0B13-4E3C-8ADC-7EFE3D29CB80}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{3C16583C-688B-4E6B-B902-E429D929D7B8}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+														<SegmentShape>Exp1</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>-157.5351</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="AMB" ID="{E9335857-D3D4-49B9-A28F-218D6DA8727C}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Enviro_Outside" ID="{F6121FB5-644C-46E5-823A-2F102BFA13E2}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Wind_Background" ID="{2C7FE5C8-63C2-4998-A85A-728800F5E2BC}" ShortID="851416013" Type="SoundFX">
+									<PropertyList>
+										<Property Name="3DPositionSource" Type="int16" Value="0"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2F6F93B5-15EB-4263-9B92-3E12F2A91384}"/>
+										</Reference>
+										<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+											<ObjectRef Name="Wind_Background" ID="{F07E3F1A-5BFA-41B6-B88E-D67697B21D79}" WorkUnitID="{C71929D4-490B-44F1-8CC9-AD928462FD59}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Noise_Loop" ID="{50B31B41-31FC-4331-AD3D-42F32E43D1D6}" ShortID="29265">
+											<Language>SFX</Language>
+											<AudioFile>Noise_Loop.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<PositioningInfo>
+										<Position Name="" ID="{A28B22BB-9C1F-4B53-9C28-AFED1B109477}"/>
+									</PositioningInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="Noise_Loop" ID="{50B31B41-31FC-4331-AD3D-42F32E43D1D6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Wind_Whistle_02" ID="{2C3C5FE1-D044-41F5-A3E4-DBAD273FB1F7}" ShortID="831870074" Type="SoundFX">
+									<PropertyList>
+										<Property Name="3DPositionSource" Type="int16" Value="0"/>
+										<Property Name="FollowListenerOrientation" Type="bool" Value="False"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+										<Property Name="Spatialization" Type="bool" Value="False"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2F6F93B5-15EB-4263-9B92-3E12F2A91384}"/>
+										</Reference>
+										<Reference Name="Effect0">
+											<Custom CreatedFrom="{193D174B-3664-4F2A-92FE-B1B3C6BFD1C4}">
+												<Effect Name="Wind_Whistle (Custom)" ID="{A4FA245D-9F8D-409F-826F-5EBCCCED644C}" ShortID="1062827094" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+													<PropertyList>
+														<Property Name="FilterTypeBand1" Type="int32" Value="2"/>
+														<Property Name="FilterTypeBand2" Type="int32" Value="2"/>
+														<Property Name="FilterTypeBand3" Type="int32" Value="2"/>
+														<Property Name="FrequencyBand1" Type="Real32">
+															<RTPCList>
+																<RTPC Name="" ID="{FC6CED50-7E91-41E6-880D-5794621A913E}" ShortID="72823773">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="Windspeed" ID="{6B489CAD-0CD1-4832-9BAB-842108393D2F}" WorkUnitID="{D87AB689-0B13-4E3C-8ADC-7EFE3D29CB80}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{CDE3FE65-C354-43CA-BD40-227C9AE24C43}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="5"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>350</YPos>
+																				<Flags>5</Flags>
+																				<SegmentShape>SCurve</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>586.62349</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+														<Property Name="OnOffBand2" Type="bool" Value="False"/>
+														<Property Name="OnOffBand3" Type="bool" Value="False"/>
+														<Property Name="OutputLevel" Type="Real32">
+															<RTPCList>
+																<RTPC Name="" ID="{3F5E26A0-61E7-439A-B717-C588F2CD6901}" ShortID="691641830">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="Windspeed" ID="{6B489CAD-0CD1-4832-9BAB-842108393D2F}" WorkUnitID="{D87AB689-0B13-4E3C-8ADC-7EFE3D29CB80}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{E6C44214-2814-48C1-8FB6-5E7CDF60E31E}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-24</YPos>
+																				<Flags>5</Flags>
+																				<SegmentShape>Log1</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+														<Property Name="ProcessLFE" Type="bool" Value="False"/>
+														<Property Name="QFactorBand1" Type="Real32" Value="10">
+															<RTPCList>
+																<RTPC Name="" ID="{9D654478-821C-4D2F-86A8-332D0F9EFB0B}" ShortID="633319625">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="Windspeed" ID="{6B489CAD-0CD1-4832-9BAB-842108393D2F}" WorkUnitID="{D87AB689-0B13-4E3C-8ADC-7EFE3D29CB80}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{A835CF20-3F76-487C-9056-F466C3A235A7}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>40</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>80</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+														<Property Name="QFactorBand2" Type="Real32" Value="10"/>
+														<Property Name="QFactorBand3" Type="Real32" Value="10"/>
+													</PropertyList>
+												</Effect>
+											</Custom>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Noise_Loop" ID="{6BE29A94-0858-49AA-BE7E-6D958236B83F}" ShortID="1059066569">
+											<Language>SFX</Language>
+											<AudioFile>Noise_Loop.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="29265"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<PositioningInfo>
+										<Position Name="" ID="{4D450D32-5688-498B-8664-5F62A414C693}">
+											<PropertyList>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="PlayMechanismTransitionTime" Type="Real64" Value="2"/>
+												<Property Name="PlayMechanismTransitionUse" Type="bool" Value="False"/>
+											</PropertyList>
+											<ChildrenList>
+												<Path2D Name="Wind_Whistle_Path" ID="{33C425BB-70AF-4573-B6D0-C9E687D67551}">
+													<PropertyList>
+														<Property Name="Duration" Type="int32" Value="11000"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>100</XPos>
+															<YPos>100</YPos>
+															<ZPos>10</ZPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+														<Point>
+															<XPos>100</XPos>
+															<YPos>-100</YPos>
+															<Flags>0</Flags>
+															<Time>2750</Time>
+														</Point>
+														<Point>
+															<XPos>-100</XPos>
+															<YPos>-100</YPos>
+															<Flags>0</Flags>
+															<Time>5500</Time>
+														</Point>
+														<Point>
+															<XPos>-100</XPos>
+															<YPos>100</YPos>
+															<Flags>0</Flags>
+															<Time>8250</Time>
+														</Point>
+														<Point>
+															<XPos>100</XPos>
+															<YPos>100</YPos>
+															<Flags>0</Flags>
+															<Time>11000</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+											</ChildrenList>
+										</Position>
+									</PositioningInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="Noise_Loop" ID="{6BE29A94-0858-49AA-BE7E-6D958236B83F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Wind_Whistle_01" ID="{695C4BC2-E896-4261-BC8E-4DC9B066AF50}" ShortID="523827800" Type="SoundFX">
+									<PropertyList>
+										<Property Name="3DPositionSource" Type="int16" Value="0"/>
+										<Property Name="FollowListenerOrientation" Type="bool" Value="False"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+										<Property Name="Spatialization" Type="bool" Value="False"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="Effect0">
+											<Custom CreatedFrom="{193D174B-3664-4F2A-92FE-B1B3C6BFD1C4}">
+												<Effect Name="Wind_Whistle (Custom)" ID="{AAE5908E-12BB-4050-8F0D-549E46B96312}" ShortID="199513604" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+													<PropertyList>
+														<Property Name="FilterTypeBand1" Type="int32" Value="2"/>
+														<Property Name="FilterTypeBand2" Type="int32" Value="2"/>
+														<Property Name="FilterTypeBand3" Type="int32" Value="2"/>
+														<Property Name="FrequencyBand1" Type="Real32">
+															<RTPCList>
+																<RTPC Name="" ID="{B8894E79-1E6E-495A-B236-FFD9AB056A44}" ShortID="735881150">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="Windspeed" ID="{6B489CAD-0CD1-4832-9BAB-842108393D2F}" WorkUnitID="{D87AB689-0B13-4E3C-8ADC-7EFE3D29CB80}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{0C875B8D-FE18-445D-BF77-6B3BD007548E}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="5"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>278.78259</YPos>
+																				<Flags>5</Flags>
+																				<SegmentShape>SCurve</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>430.1589</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+														<Property Name="OnOffBand2" Type="bool" Value="False"/>
+														<Property Name="OnOffBand3" Type="bool" Value="False"/>
+														<Property Name="OutputLevel" Type="Real32">
+															<RTPCList>
+																<RTPC Name="" ID="{274F83FA-EC83-4A68-AA0E-D203E9F2F503}" ShortID="273443225">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="Windspeed" ID="{6B489CAD-0CD1-4832-9BAB-842108393D2F}" WorkUnitID="{D87AB689-0B13-4E3C-8ADC-7EFE3D29CB80}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{C1775C28-6F4C-4D6C-8EEF-822359BFA208}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-24</YPos>
+																				<Flags>5</Flags>
+																				<SegmentShape>Log1</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+														<Property Name="ProcessLFE" Type="bool" Value="False"/>
+														<Property Name="QFactorBand1" Type="Real32" Value="10">
+															<RTPCList>
+																<RTPC Name="" ID="{61C2B8FB-16C3-47DC-B28D-4B0592E3D629}" ShortID="838215818">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="Windspeed" ID="{6B489CAD-0CD1-4832-9BAB-842108393D2F}" WorkUnitID="{D87AB689-0B13-4E3C-8ADC-7EFE3D29CB80}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{274ACB49-111C-46D1-8732-61772AC4FBF7}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>40</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>80</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+														<Property Name="QFactorBand2" Type="Real32" Value="10"/>
+														<Property Name="QFactorBand3" Type="Real32" Value="10"/>
+													</PropertyList>
+												</Effect>
+											</Custom>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="AMB" ID="{E9335857-D3D4-49B9-A28F-218D6DA8727C}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Noise_Loop" ID="{15EC0A78-C12A-4980-8515-4CBAFE124036}" ShortID="40507587">
+											<Language>SFX</Language>
+											<AudioFile>Noise_Loop.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="29265"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<PositioningInfo>
+										<Position Name="" ID="{8FF11A10-2A23-47FC-B3C3-A4044755EB08}">
+											<PropertyList>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="PlayMechanismTransitionTime" Type="Real64" Value="2"/>
+												<Property Name="PlayMechanismTransitionUse" Type="bool" Value="False"/>
+											</PropertyList>
+											<ChildrenList>
+												<Path2D Name="Wind_Whistle_Path" ID="{A7467347-AE48-4B4B-8E0B-A0740D7D35A9}">
+													<PropertyList>
+														<Property Name="Duration" Type="int32" Value="11000"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>100</XPos>
+															<YPos>100</YPos>
+															<ZPos>10</ZPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+														<Point>
+															<XPos>100</XPos>
+															<YPos>-100</YPos>
+															<Flags>0</Flags>
+															<Time>2750</Time>
+														</Point>
+														<Point>
+															<XPos>-100</XPos>
+															<YPos>-100</YPos>
+															<Flags>0</Flags>
+															<Time>5500</Time>
+														</Point>
+														<Point>
+															<XPos>-100</XPos>
+															<YPos>100</YPos>
+															<Flags>0</Flags>
+															<Time>8250</Time>
+														</Point>
+														<Point>
+															<XPos>100</XPos>
+															<YPos>100</YPos>
+															<Flags>0</Flags>
+															<Time>11000</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+											</ChildrenList>
+										</Position>
+									</PositioningInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="Noise_Loop" ID="{15EC0A78-C12A-4980-8515-4CBAFE124036}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Forest_Wind_Leaves_Loop" ID="{DE4AB847-81EC-4D4C-80D5-69DBDB9DCBB2}" ShortID="264747064" Type="SoundFX">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-22</Value>
+											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{D0EF3608-D7F9-4AE2-BE4C-B2B6B8F76F71}" ShortID="858026037">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Windspeed_Filtered" ID="{13541333-99B0-43C4-9B88-057390F21CE7}" WorkUnitID="{D87AB689-0B13-4E3C-8ADC-7EFE3D29CB80}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{9019DFCF-FCB2-4C27-A0E0-786AA4EC0C94}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>SCurve</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>20.11834</XPos>
+																<YPos>-200</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>SCurve</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>-6</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2F6F93B5-15EB-4263-9B92-3E12F2A91384}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Forest_Wind_Leaves_Loop" ID="{0D7747B8-42AF-4D9F-AA41-5B0E693F3194}" ShortID="167170494">
+											<Language>SFX</Language>
+											<AudioFile>Forest_Wind_Leaves_Loop.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Forest_Wind_Leaves_Loop" ID="{0D7747B8-42AF-4D9F-AA41-5B0E693F3194}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+						<BlendContainer Name="Wind_Forest_Doorway" ID="{A9C31E0C-02E3-4709-A185-F30EA03E1D75}" ShortID="145181290">
+							<PropertyList>
+								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+								<Property Name="RenderEffect0" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{EF1C0CA4-219B-4E3A-9594-781DE59EB63A}" ShortID="104627774">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="OutdoorIndoor" ID="{A8AC2F86-5CC1-4181-AE19-AAB33EAA8D3C}" WorkUnitID="{D87AB689-0B13-4E3C-8ADC-7EFE3D29CB80}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{A531E750-690D-40DE-A62B-56E908C7F026}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+														<SegmentShape>Log1</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Temple_Short" ID="{36E648CE-59B8-43C3-851C-BB0C460DA769}" WorkUnitID="{844A2FA5-592B-4C06-BF41-4427CC9DC2DA}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="Effect0">
+									<Custom CreatedFrom="{193D174B-3664-4F2A-92FE-B1B3C6BFD1C4}">
+										<Effect Name="Wind_Whistle (Custom)" ID="{E5500E7F-37D4-45BF-B124-A391359BC6F4}" ShortID="1053012773" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+											<Comment>frequencies:
+
+f = c / l
+f = 344 / 10 = 34, 68, 102, 136, 170, 204</Comment>
+											<PropertyList>
+												<Property Name="FilterTypeBand1" Type="int32" Value="0"/>
+												<Property Name="FilterTypeBand2" Type="int32" Value="0"/>
+												<Property Name="FilterTypeBand3" Type="int32" Value="0"/>
+												<Property Name="FrequencyBand1" Type="Real32" Value="136"/>
+												<Property Name="FrequencyBand2" Type="Real32" Value="102"/>
+												<Property Name="FrequencyBand3" Type="Real32" Value="68"/>
+												<Property Name="ProcessLFE" Type="bool" Value="False"/>
+												<Property Name="QFactorBand1" Type="Real32" Value="40"/>
+												<Property Name="QFactorBand2" Type="Real32" Value="10"/>
+												<Property Name="QFactorBand3" Type="Real32" Value="10"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="AMB" ID="{E9335857-D3D4-49B9-A28F-218D6DA8727C}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Wind_Background" ID="{9CE86930-06D2-494B-BBDC-ABA330D079CC}" ShortID="1022977161" Type="SoundFX">
+									<PropertyList>
+										<Property Name="3DPositionSource" Type="int16" Value="0"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2F6F93B5-15EB-4263-9B92-3E12F2A91384}"/>
+										</Reference>
+										<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+											<ObjectRef Name="Wind_Background" ID="{F07E3F1A-5BFA-41B6-B88E-D67697B21D79}" WorkUnitID="{C71929D4-490B-44F1-8CC9-AD928462FD59}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Noise_Loop" ID="{8EA57332-F1B0-4EA1-AEF0-BA570976FF5D}" ShortID="161956957">
+											<Language>SFX</Language>
+											<AudioFile>Noise_Loop.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="29265"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<PositioningInfo>
+										<Position Name="" ID="{B82CB0D5-12D9-4D04-A2E7-345C7D9E661C}"/>
+									</PositioningInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="Noise_Loop" ID="{8EA57332-F1B0-4EA1-AEF0-BA570976FF5D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Wind_Whistle_02" ID="{5953DAF4-AD25-4357-9210-F2873A44D96D}" ShortID="581507717" Type="SoundFX">
+									<PropertyList>
+										<Property Name="3DPositionSource" Type="int16" Value="0"/>
+										<Property Name="FollowListenerOrientation" Type="bool" Value="False"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+										<Property Name="Spatialization" Type="bool" Value="False"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2F6F93B5-15EB-4263-9B92-3E12F2A91384}"/>
+										</Reference>
+										<Reference Name="Effect0">
+											<Custom CreatedFrom="{193D174B-3664-4F2A-92FE-B1B3C6BFD1C4}">
+												<Effect Name="Wind_Whistle (Custom)" ID="{E7DEAFD1-06A3-4DCD-8ED6-A971981B553C}" ShortID="761379213" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+													<PropertyList>
+														<Property Name="FilterTypeBand1" Type="int32" Value="2"/>
+														<Property Name="FilterTypeBand2" Type="int32" Value="2"/>
+														<Property Name="FilterTypeBand3" Type="int32" Value="2"/>
+														<Property Name="FrequencyBand1" Type="Real32">
+															<RTPCList>
+																<RTPC Name="" ID="{094C6846-16BB-4072-BC1E-B70DEC64963B}" ShortID="159495939">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="Windspeed" ID="{6B489CAD-0CD1-4832-9BAB-842108393D2F}" WorkUnitID="{D87AB689-0B13-4E3C-8ADC-7EFE3D29CB80}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{678A73B7-67A5-44BC-A67F-B25A0F8E5A06}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="5"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>350</YPos>
+																				<Flags>5</Flags>
+																				<SegmentShape>SCurve</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>800</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+														<Property Name="OnOffBand2" Type="bool" Value="False"/>
+														<Property Name="OnOffBand3" Type="bool" Value="False"/>
+														<Property Name="OutputLevel" Type="Real32">
+															<RTPCList>
+																<RTPC Name="" ID="{ED378A3F-0719-4A94-899A-688B2CB055CD}" ShortID="1314178">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="Windspeed" ID="{6B489CAD-0CD1-4832-9BAB-842108393D2F}" WorkUnitID="{D87AB689-0B13-4E3C-8ADC-7EFE3D29CB80}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{741784D7-2F93-4A65-9EDB-4FA1F0CF7B53}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-24</YPos>
+																				<Flags>5</Flags>
+																				<SegmentShape>Log1</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+														<Property Name="ProcessLFE" Type="bool" Value="False"/>
+														<Property Name="QFactorBand1" Type="Real32" Value="10">
+															<RTPCList>
+																<RTPC Name="" ID="{AB8CC34B-87A4-4ACE-87EA-FA6B92B41646}" ShortID="990745798">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="Windspeed" ID="{6B489CAD-0CD1-4832-9BAB-842108393D2F}" WorkUnitID="{D87AB689-0B13-4E3C-8ADC-7EFE3D29CB80}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{5CEF9A1C-38B2-4703-A508-07EF53359E2A}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>40</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>80</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+														<Property Name="QFactorBand2" Type="Real32" Value="10"/>
+														<Property Name="QFactorBand3" Type="Real32" Value="10"/>
+													</PropertyList>
+												</Effect>
+											</Custom>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Noise_Loop" ID="{08520373-A373-486C-924B-583132D43EF1}" ShortID="722632473">
+											<Language>SFX</Language>
+											<AudioFile>Noise_Loop.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="29265"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<PositioningInfo>
+										<Position Name="" ID="{DDB2ACE2-B1AC-440B-BC79-4717DC66CA07}">
+											<PropertyList>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="PlayMechanismTransitionTime" Type="Real64" Value="2"/>
+												<Property Name="PlayMechanismTransitionUse" Type="bool" Value="False"/>
+											</PropertyList>
+											<ChildrenList>
+												<Path2D Name="Wind_Whistle_Path" ID="{54C114C4-861D-4A55-917E-DAC215CD56E9}">
+													<PropertyList>
+														<Property Name="Duration" Type="int32" Value="11000"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>100</XPos>
+															<YPos>100</YPos>
+															<ZPos>10</ZPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+														<Point>
+															<XPos>100</XPos>
+															<YPos>-100</YPos>
+															<Flags>0</Flags>
+															<Time>2750</Time>
+														</Point>
+														<Point>
+															<XPos>-100</XPos>
+															<YPos>-100</YPos>
+															<Flags>0</Flags>
+															<Time>5500</Time>
+														</Point>
+														<Point>
+															<XPos>-100</XPos>
+															<YPos>100</YPos>
+															<Flags>0</Flags>
+															<Time>8250</Time>
+														</Point>
+														<Point>
+															<XPos>100</XPos>
+															<YPos>100</YPos>
+															<Flags>0</Flags>
+															<Time>11000</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+											</ChildrenList>
+										</Position>
+									</PositioningInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="Noise_Loop" ID="{08520373-A373-486C-924B-583132D43EF1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Wind_Whistle_01" ID="{1036AC10-77F5-442F-B6E3-55D0E2F40E4C}" ShortID="182577585" Type="SoundFX">
+									<PropertyList>
+										<Property Name="3DPositionSource" Type="int16" Value="0"/>
+										<Property Name="FollowListenerOrientation" Type="bool" Value="False"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+										<Property Name="Spatialization" Type="bool" Value="False"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="Effect0">
+											<Custom CreatedFrom="{193D174B-3664-4F2A-92FE-B1B3C6BFD1C4}">
+												<Effect Name="Wind_Whistle (Custom)" ID="{FCEE3F5A-BB2D-4A86-B118-EB09441BE12E}" ShortID="676322095" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+													<PropertyList>
+														<Property Name="FilterTypeBand1" Type="int32" Value="2"/>
+														<Property Name="FilterTypeBand2" Type="int32" Value="2"/>
+														<Property Name="FilterTypeBand3" Type="int32" Value="2"/>
+														<Property Name="FrequencyBand1" Type="Real32">
+															<RTPCList>
+																<RTPC Name="" ID="{62B6A000-B516-4637-B6F0-4E4E488BCFD6}" ShortID="684064410">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="Windspeed" ID="{6B489CAD-0CD1-4832-9BAB-842108393D2F}" WorkUnitID="{D87AB689-0B13-4E3C-8ADC-7EFE3D29CB80}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{BDD29A2A-7581-48F8-947A-6E3DF0ABA49E}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="5"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>278.78259</YPos>
+																				<Flags>5</Flags>
+																				<SegmentShape>SCurve</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>664.12781</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+														<Property Name="OnOffBand2" Type="bool" Value="False"/>
+														<Property Name="OnOffBand3" Type="bool" Value="False"/>
+														<Property Name="OutputLevel" Type="Real32">
+															<RTPCList>
+																<RTPC Name="" ID="{0E9514F9-6C61-4CD3-8C8F-B8EACFA62E97}" ShortID="797153378">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="Windspeed" ID="{6B489CAD-0CD1-4832-9BAB-842108393D2F}" WorkUnitID="{D87AB689-0B13-4E3C-8ADC-7EFE3D29CB80}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{4B93DE02-E2E9-4CD5-96AF-A7F103A4DA03}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-24</YPos>
+																				<Flags>5</Flags>
+																				<SegmentShape>Log1</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+														<Property Name="ProcessLFE" Type="bool" Value="False"/>
+														<Property Name="QFactorBand1" Type="Real32" Value="10">
+															<RTPCList>
+																<RTPC Name="" ID="{F9003BA4-60E2-4AE3-B072-FA6ECD617669}" ShortID="207083980">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="Windspeed" ID="{6B489CAD-0CD1-4832-9BAB-842108393D2F}" WorkUnitID="{D87AB689-0B13-4E3C-8ADC-7EFE3D29CB80}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{708B6FD9-49A7-42FA-9E2B-DDB7476F7ED3}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>40</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>80</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+														<Property Name="QFactorBand2" Type="Real32" Value="10"/>
+														<Property Name="QFactorBand3" Type="Real32" Value="10"/>
+													</PropertyList>
+												</Effect>
+											</Custom>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="AMB" ID="{E9335857-D3D4-49B9-A28F-218D6DA8727C}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Noise_Loop" ID="{BF165A0D-2914-4EE4-9148-1F777629E154}" ShortID="626915075">
+											<Language>SFX</Language>
+											<AudioFile>Noise_Loop.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="29265"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<PositioningInfo>
+										<Position Name="" ID="{7A31C44D-99ED-47A7-A8F4-F95B9EA89E61}">
+											<PropertyList>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="PlayMechanismTransitionTime" Type="Real64" Value="2"/>
+												<Property Name="PlayMechanismTransitionUse" Type="bool" Value="False"/>
+											</PropertyList>
+											<ChildrenList>
+												<Path2D Name="Wind_Whistle_Path" ID="{510AD9F8-9833-4B34-A14C-BAD1625290B4}">
+													<PropertyList>
+														<Property Name="Duration" Type="int32" Value="11000"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>100</XPos>
+															<YPos>100</YPos>
+															<ZPos>10</ZPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+														<Point>
+															<XPos>100</XPos>
+															<YPos>-100</YPos>
+															<Flags>0</Flags>
+															<Time>2750</Time>
+														</Point>
+														<Point>
+															<XPos>-100</XPos>
+															<YPos>-100</YPos>
+															<Flags>0</Flags>
+															<Time>5500</Time>
+														</Point>
+														<Point>
+															<XPos>-100</XPos>
+															<YPos>100</YPos>
+															<Flags>0</Flags>
+															<Time>8250</Time>
+														</Point>
+														<Point>
+															<XPos>100</XPos>
+															<YPos>100</YPos>
+															<Flags>0</Flags>
+															<Time>11000</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+											</ChildrenList>
+										</Position>
+									</PositioningInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="Noise_Loop" ID="{BF165A0D-2914-4EE4-9148-1F777629E154}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Forest_Wind_Leaves_Loop" ID="{FF8C4BE7-389C-4A8E-96E8-7CCD72363171}" ShortID="128652008" Type="SoundFX">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-22</Value>
+											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{D788214C-C258-45EB-8410-82EF523EC8CD}" ShortID="206645359">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Windspeed_Filtered" ID="{13541333-99B0-43C4-9B88-057390F21CE7}" WorkUnitID="{D87AB689-0B13-4E3C-8ADC-7EFE3D29CB80}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{A9B6B489-6685-4DF5-AAC9-3D2562CD79F7}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>SCurve</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>20.11834</XPos>
+																<YPos>-200</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>SCurve</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2F6F93B5-15EB-4263-9B92-3E12F2A91384}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Forest_Wind_Leaves_Loop" ID="{04217EA7-4226-47EB-B98E-6D2BD80F80A8}" ShortID="647915727">
+											<Language>SFX</Language>
+											<AudioFile>Forest_Wind_Leaves_Loop.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="167170494"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Forest_Wind_Leaves_Loop" ID="{04217EA7-4226-47EB-B98E-6D2BD80F80A8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+					</ChildrenList>
+				</ActorMixer>
+				<RandomSequenceContainer Name="Birds_Loop" ID="{68B1E190-C7AB-4D3D-9F3B-DE0F205CA643}" ShortID="62485367">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-2400</Value>
+							</ValueList>
+						</Property>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>12</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-25</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Enviro_Outside" ID="{F6121FB5-644C-46E5-823A-2F102BFA13E2}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="AMB_Birds_Loop_12" ID="{45E6B614-8453-4C52-8BF6-C43E2FC6F526}" ShortID="787185044" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2F6F93B5-15EB-4263-9B92-3E12F2A91384}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AMB_Birds_Loop_12" ID="{212E35CF-CE00-4E11-A855-2E637FC474D4}" ShortID="880985500">
+									<Language>SFX</Language>
+									<AudioFile>AMB_Birds_Loop_12.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="AMB_Birds_Loop_12" ID="{212E35CF-CE00-4E11-A855-2E637FC474D4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="AMB_Birds_Loop_13" ID="{288EE7D1-63B0-4742-A6AE-6A913DEE8D1C}" ShortID="638161934" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2F6F93B5-15EB-4263-9B92-3E12F2A91384}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AMB_Birds_Loop_13" ID="{3C0F7212-9C94-4E46-9E2C-8112DA16693B}" ShortID="936912565">
+									<PropertyList>
+										<Property Name="LoopEnd" Type="Real64" Value="17.6385127314218"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="17.640978555476"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>AMB_Birds_Loop_13.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="AMB_Birds_Loop_13" ID="{3C0F7212-9C94-4E46-9E2C-8112DA16693B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Birds_A" ID="{F590866B-0F46-4116-8F82-759EEC4FB37C}" ShortID="728516194">
+					<PropertyList>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Birds" ID="{3B05C1F1-E014-4A5E-9025-63548F084B03}" WorkUnitID="{844A2FA5-592B-4C06-BF41-4427CC9DC2DA}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="PCM As Input" ID="{E712A671-9647-44EF-8B1B-857926D620F0}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Enviro_Outside" ID="{F6121FB5-644C-46E5-823A-2F102BFA13E2}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="AMB_Birds_Oneshot_A_01" ID="{FB438965-C75D-40E9-9BE6-4414040114FA}" ShortID="507022947" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2F6F93B5-15EB-4263-9B92-3E12F2A91384}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AMB_Birds_Oneshot_A_01" ID="{DF9C0321-361E-4B3D-B854-61C110708C6B}" ShortID="95275201">
+									<Language>SFX</Language>
+									<AudioFile>AMB_Birds_Oneshot_A_01.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="AMB_Birds_Oneshot_A_01" ID="{DF9C0321-361E-4B3D-B854-61C110708C6B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="AMB_Birds_Oneshot_A_02" ID="{FB9CCC93-C036-4C5D-A7DD-BCC9564BCD76}" ShortID="272178654" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2F6F93B5-15EB-4263-9B92-3E12F2A91384}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AMB_Birds_Oneshot_A_02" ID="{48696EE0-11C2-4ADD-836B-1A8AEAF16816}" ShortID="364263947">
+									<Language>SFX</Language>
+									<AudioFile>AMB_Birds_Oneshot_A_02.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="AMB_Birds_Oneshot_A_02" ID="{48696EE0-11C2-4ADD-836B-1A8AEAF16816}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="AMB_Birds_Oneshot_A_03" ID="{579BAE28-E1BC-41DE-882A-EB3030EF8DDB}" ShortID="916515004" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2F6F93B5-15EB-4263-9B92-3E12F2A91384}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AMB_Birds_Oneshot_A_03" ID="{70C65D8A-89DE-468D-996D-BBD6EEDD02C7}" ShortID="910828445">
+									<Language>SFX</Language>
+									<AudioFile>AMB_Birds_Oneshot_A_03.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="AMB_Birds_Oneshot_A_03" ID="{70C65D8A-89DE-468D-996D-BBD6EEDD02C7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="AMB_Birds_Oneshot_A_04" ID="{F91530F8-5A41-41F0-89C6-DDB713CB56C8}" ShortID="149448739" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2F6F93B5-15EB-4263-9B92-3E12F2A91384}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AMB_Birds_Oneshot_A_04" ID="{DEA637C3-DC08-4E85-A086-B76FF1CCB7B8}" ShortID="769118660">
+									<Language>SFX</Language>
+									<AudioFile>AMB_Birds_Oneshot_A_04.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="AMB_Birds_Oneshot_A_04" ID="{DEA637C3-DC08-4E85-A086-B76FF1CCB7B8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="AMB_Birds_Oneshot_A_05" ID="{5E2233DD-1329-4B73-8868-1E5246C9BFD9}" ShortID="906977394" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2F6F93B5-15EB-4263-9B92-3E12F2A91384}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AMB_Birds_Oneshot_A_05" ID="{E20CAD0E-314E-42FD-98B1-B816BCE3F20C}" ShortID="530981565">
+									<Language>SFX</Language>
+									<AudioFile>AMB_Birds_Oneshot_A_05.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="AMB_Birds_Oneshot_A_05" ID="{E20CAD0E-314E-42FD-98B1-B816BCE3F20C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="AMB_Birds_Oneshot_A_06" ID="{E75E5B39-0850-41C1-B4D4-34DB07CCB4E8}" ShortID="480612905" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2F6F93B5-15EB-4263-9B92-3E12F2A91384}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AMB_Birds_Oneshot_A_06" ID="{182D0DA3-1ADC-4767-951E-55E85A7C8783}" ShortID="229694062">
+									<Language>SFX</Language>
+									<AudioFile>AMB_Birds_Oneshot_A_06.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="AMB_Birds_Oneshot_A_06" ID="{182D0DA3-1ADC-4767-951E-55E85A7C8783}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Birds_B" ID="{622E67DC-007B-458B-B4F0-C9710E443F8D}" ShortID="465771888">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{83745184-15BD-4342-A27A-20F4AD28D67D}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="100"/>
+											<Property Name="Min" Type="Real64" Value="-100"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Birds" ID="{3B05C1F1-E014-4A5E-9025-63548F084B03}" WorkUnitID="{844A2FA5-592B-4C06-BF41-4427CC9DC2DA}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="PCM As Input" ID="{E712A671-9647-44EF-8B1B-857926D620F0}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Enviro_Outside" ID="{F6121FB5-644C-46E5-823A-2F102BFA13E2}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="AMB_Birds_Oneshot_B_07" ID="{A5E52532-67F8-4984-A27B-7810CD9D8321}" ShortID="650606208" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2F6F93B5-15EB-4263-9B92-3E12F2A91384}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AMB_Birds_Oneshot_B_07" ID="{5CA7DD44-0021-48C1-8580-3F21DC04E858}" ShortID="3133815">
+									<Language>SFX</Language>
+									<AudioFile>AMB_Birds_Oneshot_B_07.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="AMB_Birds_Oneshot_B_07" ID="{5CA7DD44-0021-48C1-8580-3F21DC04E858}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="AMB_Birds_Oneshot_B_08" ID="{C1A270AF-7B0C-4FD6-825E-77066CEF61D2}" ShortID="671558620" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2F6F93B5-15EB-4263-9B92-3E12F2A91384}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AMB_Birds_Oneshot_B_08" ID="{357068A0-D66D-4E65-B002-4B267407F377}" ShortID="538091757">
+									<Language>SFX</Language>
+									<AudioFile>AMB_Birds_Oneshot_B_08.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="AMB_Birds_Oneshot_B_08" ID="{357068A0-D66D-4E65-B002-4B267407F377}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="AMB_Birds_Oneshot_B_09" ID="{2F4329FF-8E97-465B-AB63-22296BB675DF}" ShortID="626907974" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2F6F93B5-15EB-4263-9B92-3E12F2A91384}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AMB_Birds_Oneshot_B_09" ID="{E50020BE-DB04-4A6B-B33D-9777AD3D3950}" ShortID="779014219">
+									<Language>SFX</Language>
+									<AudioFile>AMB_Birds_Oneshot_B_09.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="AMB_Birds_Oneshot_B_09" ID="{E50020BE-DB04-4A6B-B33D-9777AD3D3950}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="AMB_Birds_Oneshot_B_10" ID="{C5F2F78D-86C3-4E7D-BCF0-9DDC4CCB76AE}" ShortID="448240461" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2F6F93B5-15EB-4263-9B92-3E12F2A91384}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AMB_Birds_Oneshot_B_10" ID="{BC211BC1-DF75-484F-9D40-A4A7D5FC5A9A}" ShortID="570087756">
+									<Language>SFX</Language>
+									<AudioFile>AMB_Birds_Oneshot_B_10.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="AMB_Birds_Oneshot_B_10" ID="{BC211BC1-DF75-484F-9D40-A4A7D5FC5A9A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="AMB_Birds_Oneshot_B_11" ID="{E4A57F04-F37E-47F7-AEB0-6230F5A4B49A}" ShortID="900564097" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2F6F93B5-15EB-4263-9B92-3E12F2A91384}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AMB_Birds_Oneshot_B_11" ID="{CE1FB673-C46C-4752-AE8A-1CA8B3B3C5B8}" ShortID="769736805">
+									<Language>SFX</Language>
+									<AudioFile>AMB_Birds_Oneshot_B_11.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="AMB_Birds_Oneshot_B_11" ID="{CE1FB673-C46C-4752-AE8A-1CA8B3B3C5B8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

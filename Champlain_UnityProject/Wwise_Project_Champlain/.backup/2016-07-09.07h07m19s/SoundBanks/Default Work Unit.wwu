@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C5CF7748-9DF6-4BB6-BAE9-A3A20A397A53}" SchemaVersion="70">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{C5CF7748-9DF6-4BB6-BAE9-A3A20A397A53}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Music" ID="{E1A01DBE-2E26-493B-8866-85272C411231}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Stop_Music_Bell" ID="{0A98DC0D-AD2E-4EDA-A3F5-BBBF0BF64471}" WorkUnitID="{A39304BC-B968-4E4D-90C6-812D1914E193}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Music_Bell" ID="{94E8DE15-C550-4FD9-8041-6568E7CCF3D1}" WorkUnitID="{A39304BC-B968-4E4D-90C6-812D1914E193}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_Music_Drum" ID="{9F4A7918-C3A4-4689-8F53-3422124A46AC}" WorkUnitID="{A39304BC-B968-4E4D-90C6-812D1914E193}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Music_Whispers_L" ID="{FE3C2F37-640C-4C0B-98CF-E17477830DC6}" WorkUnitID="{A39304BC-B968-4E4D-90C6-812D1914E193}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_Music_Whispers_R" ID="{C7B16345-70A4-45CA-9411-B86D07D4D30D}" WorkUnitID="{A39304BC-B968-4E4D-90C6-812D1914E193}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_Music_Drone" ID="{DA3BEE51-AFCD-44C0-83F0-D262878C79A9}" WorkUnitID="{A39304BC-B968-4E4D-90C6-812D1914E193}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Music_Drum" ID="{2154C973-E77D-4A68-A638-2639984A9AA8}" WorkUnitID="{A39304BC-B968-4E4D-90C6-812D1914E193}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_Music_Voice" ID="{ECCCC27A-CB02-477D-AB9E-91D05E801EB5}" WorkUnitID="{A39304BC-B968-4E4D-90C6-812D1914E193}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Music_MMMM_R" ID="{9B9BB184-ED5A-4662-9C30-A27E99505E4E}" WorkUnitID="{A39304BC-B968-4E4D-90C6-812D1914E193}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Music_MMMM_L" ID="{9AE71686-3FB8-4609-8E0B-D92DA9CFD2C1}" WorkUnitID="{A39304BC-B968-4E4D-90C6-812D1914E193}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_Music_Qanun" ID="{D4CFDD9C-FEC8-4543-B7F7-7A488D6E3C16}" WorkUnitID="{A39304BC-B968-4E4D-90C6-812D1914E193}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Music_Drone" ID="{C99C96A1-67DD-4307-92DC-402F49A45AF0}" WorkUnitID="{A39304BC-B968-4E4D-90C6-812D1914E193}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Music" ID="{999CBAA5-628C-4CEC-B270-CE41100E3ABA}" WorkUnitID="{A39304BC-B968-4E4D-90C6-812D1914E193}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_Music_Whispers_L" ID="{9D1345B7-C27C-4A15-9CC1-FF225CE7D07C}" WorkUnitID="{A39304BC-B968-4E4D-90C6-812D1914E193}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Music_Qanun" ID="{6F44BCBA-2188-4EA0-AC7E-757E222537A1}" WorkUnitID="{A39304BC-B968-4E4D-90C6-812D1914E193}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_Music_MMMM_R" ID="{0A5DE9E0-C0D5-47D5-8132-FB410207F2E3}" WorkUnitID="{A39304BC-B968-4E4D-90C6-812D1914E193}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Music_Whispers_R" ID="{FB59C9E4-02EF-485E-B82B-7BAD876A34C5}" WorkUnitID="{A39304BC-B968-4E4D-90C6-812D1914E193}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_Music_MMMM_L" ID="{AE1041E5-E9BD-4C17-9E42-D03E770555A6}" WorkUnitID="{A39304BC-B968-4E4D-90C6-812D1914E193}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Music_Voice" ID="{37B396E5-4888-4738-8966-A33D83438C14}" WorkUnitID="{A39304BC-B968-4E4D-90C6-812D1914E193}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="SFX" ID="{BCAB8B57-289E-400B-BBFE-384785BCA351}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Wind_Forest" ID="{FA70AF51-8F9B-4FC7-8018-0FC2601122B9}" WorkUnitID="{A39304BC-B968-4E4D-90C6-812D1914E193}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Wind_Forest_Doorway" ID="{9254AC59-3B1C-4593-91EE-5AA929659F49}" WorkUnitID="{A39304BC-B968-4E4D-90C6-812D1914E193}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_Wind" ID="{4C82C9E3-3E34-44EE-A074-A86063C51C19}" WorkUnitID="{A39304BC-B968-4E4D-90C6-812D1914E193}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>
