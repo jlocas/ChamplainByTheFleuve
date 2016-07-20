@@ -1,5 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="72">
+	<ValidationCacheItem File="W:\Projects\Champlainbythefleuve\Champlain_UnityProject\Assets\Wwise_Project_Champlain\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1440547904" DateHigh="30532050"/>
+	<ValidationCacheItem File="W:\Projects\Champlainbythefleuve\Champlain_UnityProject\Assets\Wwise_Project_Champlain\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="2111475762" DateHigh="30531543"/>
+	<ValidationCacheItem File="W:\Projects\Champlainbythefleuve\Champlain_UnityProject\Assets\Wwise_Project_Champlain\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="2111955790" DateHigh="30531543"/>
+	<ValidationCacheItem File="W:\Projects\Champlainbythefleuve\Champlain_UnityProject\Assets\Wwise_Project_Champlain\Attenuations\Default Work Unit.wwu" DateLow="2112045795" DateHigh="30531543"/>
+	<ValidationCacheItem File="W:\Projects\Champlainbythefleuve\Champlain_UnityProject\Assets\Wwise_Project_Champlain\Audio Devices\Default Work Unit.wwu" DateLow="2112105798" DateHigh="30531543"/>
+	<ValidationCacheItem File="W:\Projects\Champlainbythefleuve\Champlain_UnityProject\Assets\Wwise_Project_Champlain\Control Surface Sessions\Default Work Unit.wwu" DateLow="2112165802" DateHigh="30531543"/>
+	<ValidationCacheItem File="W:\Projects\Champlainbythefleuve\Champlain_UnityProject\Assets\Wwise_Project_Champlain\Conversion Settings\Default Work Unit.wwu" DateLow="2112225805" DateHigh="30531543"/>
+	<ValidationCacheItem File="W:\Projects\Champlainbythefleuve\Champlain_UnityProject\Assets\Wwise_Project_Champlain\Conversion Settings\Factory Conversion Settings.wwu" DateLow="2112265808" DateHigh="30531543"/>
+	<ValidationCacheItem File="W:\Projects\Champlainbythefleuve\Champlain_UnityProject\Assets\Wwise_Project_Champlain\Dynamic Dialogue\Default Work Unit.wwu" DateLow="2112325811" DateHigh="30531543"/>
+	<ValidationCacheItem File="W:\Projects\Champlainbythefleuve\Champlain_UnityProject\Assets\Wwise_Project_Champlain\Effects\Default Work Unit.wwu" DateLow="2112395815" DateHigh="30531543"/>
+	<ValidationCacheItem File="W:\Projects\Champlainbythefleuve\Champlain_UnityProject\Assets\Wwise_Project_Champlain\Effects\Factory Auro Headphone.wwu" DateLow="2112445818" DateHigh="30531543"/>
+	<ValidationCacheItem File="W:\Projects\Champlainbythefleuve\Champlain_UnityProject\Assets\Wwise_Project_Champlain\Effects\Factory Effects.wwu" DateLow="2112505821" DateHigh="30531543"/>
+	<ValidationCacheItem File="W:\Projects\Champlainbythefleuve\Champlain_UnityProject\Assets\Wwise_Project_Champlain\Effects\Factory iZotope Box Modeler.wwu" DateLow="2112615828" DateHigh="30531543"/>
+	<ValidationCacheItem File="W:\Projects\Champlainbythefleuve\Champlain_UnityProject\Assets\Wwise_Project_Champlain\Effects\Factory iZotope Delay.wwu" DateLow="2112655830" DateHigh="30531543"/>
+	<ValidationCacheItem File="W:\Projects\Champlainbythefleuve\Champlain_UnityProject\Assets\Wwise_Project_Champlain\Effects\Factory iZotope Dynamics.wwu" DateLow="2112695832" DateHigh="30531543"/>
+	<ValidationCacheItem File="W:\Projects\Champlainbythefleuve\Champlain_UnityProject\Assets\Wwise_Project_Champlain\Effects\Factory iZotope Filters.wwu" DateLow="2112755836" DateHigh="30531543"/>
+	<ValidationCacheItem File="W:\Projects\Champlainbythefleuve\Champlain_UnityProject\Assets\Wwise_Project_Champlain\Effects\Factory iZotope Hybrid Reverb Effects.wwu" DateLow="2112805839" DateHigh="30531543"/>
+	<ValidationCacheItem File="W:\Projects\Champlainbythefleuve\Champlain_UnityProject\Assets\Wwise_Project_Champlain\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="2112865842" DateHigh="30531543"/>
+	<ValidationCacheItem File="W:\Projects\Champlainbythefleuve\Champlain_UnityProject\Assets\Wwise_Project_Champlain\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="2112925845" DateHigh="30531543"/>
+	<ValidationCacheItem File="W:\Projects\Champlainbythefleuve\Champlain_UnityProject\Assets\Wwise_Project_Champlain\Effects\Factory McDSP Effects.wwu" DateLow="2112575825" DateHigh="30531543"/>
+	<ValidationCacheItem File="W:\Projects\Champlainbythefleuve\Champlain_UnityProject\Assets\Wwise_Project_Champlain\Events\Default Work Unit.wwu" DateLow="2112995849" DateHigh="30531543"/>
+	<ValidationCacheItem File="W:\Projects\Champlainbythefleuve\Champlain_UnityProject\Assets\Wwise_Project_Champlain\Game Parameters\Default Work Unit.wwu" DateLow="3955483388" DateHigh="30532049"/>
+	<ValidationCacheItem File="W:\Projects\Champlainbythefleuve\Champlain_UnityProject\Assets\Wwise_Project_Champlain\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="2113125857" DateHigh="30531543"/>
+	<ValidationCacheItem File="W:\Projects\Champlainbythefleuve\Champlain_UnityProject\Assets\Wwise_Project_Champlain\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="2115746007" DateHigh="30531543"/>
+	<ValidationCacheItem File="W:\Projects\Champlainbythefleuve\Champlain_UnityProject\Assets\Wwise_Project_Champlain\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="2115836012" DateHigh="30531543"/>
+	<ValidationCacheItem File="W:\Projects\Champlainbythefleuve\Champlain_UnityProject\Assets\Wwise_Project_Champlain\Mixing Sessions\Default Work Unit.wwu" DateLow="2115916016" DateHigh="30531543"/>
+	<ValidationCacheItem File="W:\Projects\Champlainbythefleuve\Champlain_UnityProject\Assets\Wwise_Project_Champlain\Modulators\Default Work Unit.wwu" DateLow="2115976020" DateHigh="30531543"/>
+	<ValidationCacheItem File="W:\Projects\Champlainbythefleuve\Champlain_UnityProject\Assets\Wwise_Project_Champlain\Presets\Default Work Unit.wwu" DateLow="2130616857" DateHigh="30531543"/>
+	<ValidationCacheItem File="W:\Projects\Champlainbythefleuve\Champlain_UnityProject\Assets\Wwise_Project_Champlain\Queries\Default Work Unit.wwu" DateLow="2131366900" DateHigh="30531543"/>
+	<ValidationCacheItem File="W:\Projects\Champlainbythefleuve\Champlain_UnityProject\Assets\Wwise_Project_Champlain\Queries\Factory Queries.wwu" DateLow="2131416903" DateHigh="30531543"/>
+	<ValidationCacheItem File="W:\Projects\Champlainbythefleuve\Champlain_UnityProject\Assets\Wwise_Project_Champlain\SoundBanks\Default Work Unit.wwu" DateLow="2131486907" DateHigh="30531543"/>
+	<ValidationCacheItem File="W:\Projects\Champlainbythefleuve\Champlain_UnityProject\Assets\Wwise_Project_Champlain\Soundcaster Sessions\Default Work Unit.wwu" DateLow="2131546910" DateHigh="30531543"/>
+	<ValidationCacheItem File="W:\Projects\Champlainbythefleuve\Champlain_UnityProject\Assets\Wwise_Project_Champlain\States\Default Work Unit.wwu" DateLow="2131606914" DateHigh="30531543"/>
+	<ValidationCacheItem File="W:\Projects\Champlainbythefleuve\Champlain_UnityProject\Assets\Wwise_Project_Champlain\Switches\Default Work Unit.wwu" DateLow="2131666917" DateHigh="30531543"/>
+	<ValidationCacheItem File="W:\Projects\Champlainbythefleuve\Champlain_UnityProject\Assets\Wwise_Project_Champlain\Triggers\Default Work Unit.wwu" DateLow="2131726921" DateHigh="30531543"/>
+	<ValidationCacheItem File="W:\Projects\Champlainbythefleuve\Champlain_UnityProject\Assets\Wwise_Project_Champlain\Wwise_Project_Showcase2.Jeremie.wsettings" DateLow="2564082166" DateHigh="30532050"/>
+	<ValidationCacheItem File="W:\Projects\Champlainbythefleuve\Champlain_UnityProject\Assets\Wwise_Project_Champlain\Wwise_Project_Showcase2.wproj" DateLow="2131906931" DateHigh="30531543"/>
 	<ValidationCacheItem File="W:\Projects\Showcase2\Showcase_Unity\Wwise_Project_Showcase2\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="3356815154" DateHigh="30530012"/>
 	<ValidationCacheItem File="W:\Projects\Showcase2\Showcase_Unity\Wwise_Project_Showcase2\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="4092815440" DateHigh="30530007"/>
 	<ValidationCacheItem File="W:\Projects\Showcase2\Showcase_Unity\Wwise_Project_Showcase2\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="273115156" DateHigh="30530002"/>

@@ -45,7 +45,7 @@
 				<Property Name="ProjectExplorer\x64_Expanded_19_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_1_1" Type="string" Value="2KQUFaYdKkGhfnXKDCFJ88FkgkqXvGVIqk53EtaXsbs="/>
 				<Property Name="ProjectExplorer\x64_Expanded_20_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="a4aQ9UYPFkGPgnWe7E+zfNxnLmJ7AItFtPDJcQ5EP43rfI1S9So2S6miLdGA+sS0/jhXC64e40ybCiq3NTFTOJDhsWirxz1NnzveDyBcpkMoOBI7UVTDT6dCemsujY6K"/>
+				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="Rs4hnUc2LkOXAeukCSq/FLbDOOjGxllFpPibRhId0mwTwMGGT7AUR6T1qOvPfSbYlPd5U3BokkiU3GH68uhdSoyMK55+aVhKrpeaB3l/6kn+OFcLrh7jTJsKKrc1MVM4"/>
 				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value=""/>
@@ -56,8 +56,9 @@
 				<Property Name="RTPC\GameParameterSimValue\{1329EBEF-A193-472E-A38C-64668B494879}" Type="Real64" Value="50"/>
 				<Property Name="RTPC\GameParameterSimValue\{13541333-99B0-43C4-9B88-057390F21CE7}" Type="Real64" Value="0"/>
 				<Property Name="RTPC\GameParameterSimValue\{2F2DFE37-4F9E-4D94-83D8-53CCA39781AD}" Type="Real64" Value="75"/>
+				<Property Name="RTPC\GameParameterSimValue\{515000EE-C395-4C19-B11D-6BEA9856C795}" Type="Real64" Value="0"/>
 				<Property Name="RTPC\GameParameterSimValue\{536FA72C-8C7E-4C8B-AE03-EF34FDADC314}" Type="Real64" Value="6"/>
-				<Property Name="RTPC\GameParameterSimValue\{6B489CAD-0CD1-4832-9BAB-842108393D2F}" Type="Real64" Value="0"/>
+				<Property Name="RTPC\GameParameterSimValue\{6B489CAD-0CD1-4832-9BAB-842108393D2F}" Type="Real64" Value="20"/>
 				<Property Name="RTPC\GameParameterSimValue\{A2AE79DC-CA3A-46BA-9652-9986C322A87B}" Type="Real64" Value="50"/>
 				<Property Name="RTPC\GameParameterSimValue\{A34890AB-B9D5-4526-A64D-5290C43EF2DC}" Type="Real64" Value="50"/>
 				<Property Name="RTPC\GameParameterSimValue\{A8AC2F86-5CC1-4181-AE19-AAB33EAA8D3C}" Type="Real64" Value="0"/>

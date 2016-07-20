@@ -1468,6 +1468,802 @@ f = 344 / 10 = 34, 68, 102, 136, 170, 204</Comment>
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
+				<BlendContainer Name="Rain" ID="{964861C3-2544-493C-BE78-AD20D9903A9A}" ShortID="454960204">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2F6F93B5-15EB-4263-9B92-3E12F2A91384}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Rain_Lvl1" ID="{9D21CE46-3647-432E-9701-EBA4092ABF14}" ShortID="186952747">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2F6F93B5-15EB-4263-9B92-3E12F2A91384}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Rain_Lvl1_27" ID="{958E3676-7FB9-44C3-BDC5-B6CC51FFFC1F}" ShortID="593451785" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="PCM As Input" ID="{E712A671-9647-44EF-8B1B-857926D620F0}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Rain_Lvl1_27" ID="{516C867D-A341-46C4-BE3E-5F629C2BE3A3}" ShortID="781530443">
+											<Language>SFX</Language>
+											<AudioFile>Rain_Lvl1_27.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Rain_Lvl1_27" ID="{516C867D-A341-46C4-BE3E-5F629C2BE3A3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Rain_Lvl1_28" ID="{77A846C4-8C7A-4029-9E17-DE660496B298}" ShortID="861475908" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="PCM As Input" ID="{E712A671-9647-44EF-8B1B-857926D620F0}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Rain_Lvl1_28" ID="{0BFEC0E3-665C-4B99-B656-AFE05A92ED61}" ShortID="850655970">
+											<Language>SFX</Language>
+											<AudioFile>Rain_Lvl1_28.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Rain_Lvl1_28" ID="{0BFEC0E3-665C-4B99-B656-AFE05A92ED61}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Rain_Lvl1_29" ID="{1CBFA82C-72C3-4F6C-BFE3-7380F7E10D48}" ShortID="979168406" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="PCM As Input" ID="{E712A671-9647-44EF-8B1B-857926D620F0}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Rain_Lvl1_29" ID="{B19AB750-D1B1-40B5-93A1-C0FF804A2E7B}" ShortID="231560013">
+											<Language>SFX</Language>
+											<AudioFile>Rain_Lvl1_29.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Rain_Lvl1_29" ID="{B19AB750-D1B1-40B5-93A1-C0FF804A2E7B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Rain_Lvl1_30" ID="{E4246368-D36E-4971-A6CA-B808D55215C8}" ShortID="118998076" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="PCM As Input" ID="{E712A671-9647-44EF-8B1B-857926D620F0}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Rain_Lvl1_30" ID="{73700F30-E52E-4703-955E-2F9969B5B3D3}" ShortID="133426531">
+											<Language>SFX</Language>
+											<AudioFile>Rain_Lvl1_30.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Rain_Lvl1_30" ID="{73700F30-E52E-4703-955E-2F9969B5B3D3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Rain_Lvl1_31" ID="{D4C25A9F-C852-4E54-9B85-9B6000C76DE9}" ShortID="534524238" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="PCM As Input" ID="{E712A671-9647-44EF-8B1B-857926D620F0}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Rain_Lvl1_31" ID="{17EDAE9C-37D8-4F55-9C6E-F64BEC06B87B}" ShortID="820602971">
+											<Language>SFX</Language>
+											<AudioFile>Rain_Lvl1_31.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Rain_Lvl1_31" ID="{17EDAE9C-37D8-4F55-9C6E-F64BEC06B87B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Rain_Lvl1_32" ID="{26D7725F-5BD4-4502-9762-BF88EA29B43C}" ShortID="157117542" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="PCM As Input" ID="{E712A671-9647-44EF-8B1B-857926D620F0}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Rain_Lvl1_32" ID="{D409EFC4-50D2-404F-A0E8-DC13F1FBD4B9}" ShortID="118251553">
+											<Language>SFX</Language>
+											<AudioFile>Rain_Lvl1_32.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Rain_Lvl1_32" ID="{D409EFC4-50D2-404F-A0E8-DC13F1FBD4B9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Rain_Lvl1_33" ID="{CC0CEC3C-C348-42A5-8C30-6A69EFD9806A}" ShortID="12699302" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="PCM As Input" ID="{E712A671-9647-44EF-8B1B-857926D620F0}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Rain_Lvl1_33" ID="{96E6A4E0-04BF-4FE3-A779-B48E3AE7ED9D}" ShortID="670808211">
+											<Language>SFX</Language>
+											<AudioFile>Rain_Lvl1_33.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Rain_Lvl1_33" ID="{96E6A4E0-04BF-4FE3-A779-B48E3AE7ED9D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Rain_Lvl2" ID="{E838C3B6-C6C6-4559-A4F8-9B46121DD26C}" ShortID="528867722">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2F6F93B5-15EB-4263-9B92-3E12F2A91384}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Rain_Lvl2_24" ID="{2980A9D6-42CC-4D89-AEF1-E322CFB7C74C}" ShortID="686860212" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="PCM As Input" ID="{E712A671-9647-44EF-8B1B-857926D620F0}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Rain_Lvl2_24" ID="{73D3A669-AA88-43C9-86E5-AC38E8E15C98}" ShortID="71693112">
+											<Language>SFX</Language>
+											<AudioFile>Rain_Lvl2_24.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Rain_Lvl2_24" ID="{73D3A669-AA88-43C9-86E5-AC38E8E15C98}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Rain_Lvl2_25" ID="{58546D3D-6361-4DAA-AE0B-E9A0B781A198}" ShortID="90770504" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="PCM As Input" ID="{E712A671-9647-44EF-8B1B-857926D620F0}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Rain_Lvl2_25" ID="{4D8D8529-36F1-4782-838B-A90B61029DCF}" ShortID="118081611">
+											<Language>SFX</Language>
+											<AudioFile>Rain_Lvl2_25.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Rain_Lvl2_25" ID="{4D8D8529-36F1-4782-838B-A90B61029DCF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Rain_Lvl2_26" ID="{F9DA9840-C536-4717-8416-D339B9E1A2D3}" ShortID="35054501" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="PCM As Input" ID="{E712A671-9647-44EF-8B1B-857926D620F0}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Rain_Lvl2_26" ID="{AA75AFC6-3016-41BE-93DE-21642DBC576E}" ShortID="801994076">
+											<Language>SFX</Language>
+											<AudioFile>Rain_Lvl2_26.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Rain_Lvl2_26" ID="{AA75AFC6-3016-41BE-93DE-21642DBC576E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Rain_Lvl3" ID="{9E2B8C8C-697E-4A58-AE97-9A07797FEA49}" ShortID="580444468">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2F6F93B5-15EB-4263-9B92-3E12F2A91384}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Rain_Lvl3_15" ID="{22997B37-B7EA-4E7D-979C-382D91FC887E}" ShortID="466393172" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="PCM As Input" ID="{E712A671-9647-44EF-8B1B-857926D620F0}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Rain_Lvl3_15" ID="{391311B2-BF5E-48BA-899D-5B1245F63495}" ShortID="818782256">
+											<Language>SFX</Language>
+											<AudioFile>Rain_Lvl3_15.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Rain_Lvl3_15" ID="{391311B2-BF5E-48BA-899D-5B1245F63495}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Rain_Lvl3_16" ID="{CEBD3CFE-0AB5-4F40-A084-53E3D5FF4097}" ShortID="847060900" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="PCM As Input" ID="{E712A671-9647-44EF-8B1B-857926D620F0}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Rain_Lvl3_16" ID="{45F5FF22-3026-44A4-B844-36BD5732AFA9}" ShortID="442217452">
+											<Language>SFX</Language>
+											<AudioFile>Rain_Lvl3_16.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Rain_Lvl3_16" ID="{45F5FF22-3026-44A4-B844-36BD5732AFA9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Rain_Lvl3_17" ID="{8F90D4C5-C8FD-4472-B187-3700A9CF03CB}" ShortID="151933071" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="PCM As Input" ID="{E712A671-9647-44EF-8B1B-857926D620F0}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Rain_Lvl3_17" ID="{A3B5648F-9BAB-4423-9E88-CFB453A187F8}" ShortID="940654931">
+											<Language>SFX</Language>
+											<AudioFile>Rain_Lvl3_17.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Rain_Lvl3_17" ID="{A3B5648F-9BAB-4423-9E88-CFB453A187F8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Rain_Lvl3_18" ID="{500240F1-80D9-4F75-B703-9D63A882E07F}" ShortID="454134579" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="PCM As Input" ID="{E712A671-9647-44EF-8B1B-857926D620F0}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Rain_Lvl3_18" ID="{4E5492CD-D03C-4131-803F-CD477B859419}" ShortID="86683831">
+											<Language>SFX</Language>
+											<AudioFile>Rain_Lvl3_18.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Rain_Lvl3_18" ID="{4E5492CD-D03C-4131-803F-CD477B859419}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Rain_Lvl3_19" ID="{F368C015-0997-4CD2-959B-C8F04D060976}" ShortID="98256704" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="PCM As Input" ID="{E712A671-9647-44EF-8B1B-857926D620F0}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Rain_Lvl3_19" ID="{838D2FAD-22FA-4F03-AE78-A12DD1B275F9}" ShortID="103243658">
+											<Language>SFX</Language>
+											<AudioFile>Rain_Lvl3_19.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Rain_Lvl3_19" ID="{838D2FAD-22FA-4F03-AE78-A12DD1B275F9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Rain_Lvl3_20" ID="{8B475046-9461-43C4-A45D-7B43583C4E51}" ShortID="478193769" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="PCM As Input" ID="{E712A671-9647-44EF-8B1B-857926D620F0}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Rain_Lvl3_20" ID="{74929FB8-E7C0-4249-A006-E8820D0BDBBC}" ShortID="81070489">
+											<Language>SFX</Language>
+											<AudioFile>Rain_Lvl3_20.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Rain_Lvl3_20" ID="{74929FB8-E7C0-4249-A006-E8820D0BDBBC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Rain_Lvl3_21" ID="{CC95D3D0-41F2-4E8C-88FB-D09B20557411}" ShortID="782959779" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="PCM As Input" ID="{E712A671-9647-44EF-8B1B-857926D620F0}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Rain_Lvl3_21" ID="{A008F476-CF9F-467A-B7BC-8B307416F089}" ShortID="871666310">
+											<Language>SFX</Language>
+											<AudioFile>Rain_Lvl3_21.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Rain_Lvl3_21" ID="{A008F476-CF9F-467A-B7BC-8B307416F089}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Rain_Lvl3_22" ID="{D30743ED-D866-4F60-AE8C-B43AB59AE579}" ShortID="170740068" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="PCM As Input" ID="{E712A671-9647-44EF-8B1B-857926D620F0}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Rain_Lvl3_22" ID="{0C7036FD-D25D-48E0-9406-56F997594341}" ShortID="974577995">
+											<Language>SFX</Language>
+											<AudioFile>Rain_Lvl3_22.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Rain_Lvl3_22" ID="{0C7036FD-D25D-48E0-9406-56F997594341}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Rain_Lvl3_23" ID="{196EFE80-A1EB-4565-BC41-BEBCE012F47F}" ShortID="831779458" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="PCM As Input" ID="{E712A671-9647-44EF-8B1B-857926D620F0}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Rain_Lvl3_23" ID="{28C75B9E-8D58-497D-B2B8-45F9BB270212}" ShortID="309515305">
+											<Language>SFX</Language>
+											<AudioFile>Rain_Lvl3_23.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Rain_Lvl3_23" ID="{28C75B9E-8D58-497D-B2B8-45F9BB270212}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Rain_Lvl4" ID="{86C1C013-B04F-4714-A4F5-A8EBCF7D26D8}" ShortID="116364864">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2F6F93B5-15EB-4263-9B92-3E12F2A91384}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Rain_Lvl4_04" ID="{94DEE0A0-F564-4962-B61D-CD63823A6049}" ShortID="88313758" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="PCM As Input" ID="{E712A671-9647-44EF-8B1B-857926D620F0}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Rain_Lvl4_04" ID="{51D6E4FD-71ED-4B37-8EC1-59456CB16546}" ShortID="135412111">
+											<Language>SFX</Language>
+											<AudioFile>Rain_Lvl4_04.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Rain_Lvl4_04" ID="{51D6E4FD-71ED-4B37-8EC1-59456CB16546}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Rain_Lvl4_05" ID="{7E642F75-9D0F-4C27-8F4C-2E949030F63C}" ShortID="798612228" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="PCM As Input" ID="{E712A671-9647-44EF-8B1B-857926D620F0}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Rain_Lvl4_05" ID="{5CF46E30-7FA0-4157-A582-E96F3145CDBC}" ShortID="417581173">
+											<Language>SFX</Language>
+											<AudioFile>Rain_Lvl4_05.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Rain_Lvl4_05" ID="{5CF46E30-7FA0-4157-A582-E96F3145CDBC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Rain_Lvl4_06" ID="{74F4A84D-1A55-49EA-A2C9-17276B4A4232}" ShortID="391045450" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="PCM As Input" ID="{E712A671-9647-44EF-8B1B-857926D620F0}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Rain_Lvl4_06" ID="{F115DBCA-012A-4DF9-8EEC-35DE40B4FAD0}" ShortID="255996825">
+											<Language>SFX</Language>
+											<AudioFile>Rain_Lvl4_06.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Rain_Lvl4_06" ID="{F115DBCA-012A-4DF9-8EEC-35DE40B4FAD0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Rain_Lvl4_07" ID="{D60666B0-D6F6-499C-956F-266B703012E3}" ShortID="1039418034" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="PCM As Input" ID="{E712A671-9647-44EF-8B1B-857926D620F0}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Rain_Lvl4_07" ID="{A457DBF0-F81A-4A5D-A489-88078004F9DB}" ShortID="876717985">
+											<Language>SFX</Language>
+											<AudioFile>Rain_Lvl4_07.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Rain_Lvl4_07" ID="{A457DBF0-F81A-4A5D-A489-88078004F9DB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Rain_Lvl4_08" ID="{FB02133B-D03E-4199-AD41-B469E08ED6FE}" ShortID="992554789" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="PCM As Input" ID="{E712A671-9647-44EF-8B1B-857926D620F0}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Rain_Lvl4_08" ID="{540F945F-F2EF-443F-8C28-1943455C1C20}" ShortID="738856127">
+											<Language>SFX</Language>
+											<AudioFile>Rain_Lvl4_08.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Rain_Lvl4_08" ID="{540F945F-F2EF-443F-8C28-1943455C1C20}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Rain_Lvl4_09" ID="{79824E71-53AE-49BE-81DB-0AA9E3A623D5}" ShortID="951005814" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="PCM As Input" ID="{E712A671-9647-44EF-8B1B-857926D620F0}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Rain_Lvl4_09" ID="{1EF2B27D-F0EA-4899-8C6C-B1D1247AFE62}" ShortID="330334241">
+											<Language>SFX</Language>
+											<AudioFile>Rain_Lvl4_09.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Rain_Lvl4_09" ID="{1EF2B27D-F0EA-4899-8C6C-B1D1247AFE62}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Rain_Lvl4_10" ID="{E2E714E2-CEA7-4FE1-8C30-B7E21B94C048}" ShortID="827230582" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="PCM As Input" ID="{E712A671-9647-44EF-8B1B-857926D620F0}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Rain_Lvl4_10" ID="{02C7CB52-8A83-43B9-9C5C-6B293406A7A9}" ShortID="119165500">
+											<Language>SFX</Language>
+											<AudioFile>Rain_Lvl4_10.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Rain_Lvl4_10" ID="{02C7CB52-8A83-43B9-9C5C-6B293406A7A9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Rain_Lvl4_11" ID="{9C774706-83B9-4CE7-9980-8003F75DA999}" ShortID="619025547" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="PCM As Input" ID="{E712A671-9647-44EF-8B1B-857926D620F0}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Rain_Lvl4_11" ID="{587BFFF4-3A6A-48DC-B40E-5684200B5A37}" ShortID="35651678">
+											<Language>SFX</Language>
+											<AudioFile>Rain_Lvl4_11.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Rain_Lvl4_11" ID="{587BFFF4-3A6A-48DC-B40E-5684200B5A37}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Rain_Lvl4_12" ID="{9D9F21DE-AD07-4757-83CC-1A6846434D2D}" ShortID="622959530" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="PCM As Input" ID="{E712A671-9647-44EF-8B1B-857926D620F0}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Rain_Lvl4_12" ID="{C9DE4893-343A-47E8-BE2E-5E2B718193DB}" ShortID="707409361">
+											<Language>SFX</Language>
+											<AudioFile>Rain_Lvl4_12.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Rain_Lvl4_12" ID="{C9DE4893-343A-47E8-BE2E-5E2B718193DB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Rain_Lvl4_13" ID="{A523E47D-3D37-4A14-A9DA-9143EC0EA51E}" ShortID="702557877" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="PCM As Input" ID="{E712A671-9647-44EF-8B1B-857926D620F0}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Rain_Lvl4_13" ID="{C9237B05-29CF-41C8-95CB-2AA088ED8A15}" ShortID="202158680">
+											<Language>SFX</Language>
+											<AudioFile>Rain_Lvl4_13.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Rain_Lvl4_13" ID="{C9237B05-29CF-41C8-95CB-2AA088ED8A15}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Rain_Lvl4_14" ID="{C82F21A0-7F19-4EED-9DC9-694A58B2ADC2}" ShortID="137143108" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="PCM As Input" ID="{E712A671-9647-44EF-8B1B-857926D620F0}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Rain_Lvl4_14" ID="{E786BD18-CD55-496E-B051-6B3384F46FD2}" ShortID="661565606">
+											<Language>SFX</Language>
+											<AudioFile>Rain_Lvl4_14.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Rain_Lvl4_14" ID="{E786BD18-CD55-496E-B051-6B3384F46FD2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Rain_Lvl5" ID="{5379F794-6870-4892-94DC-61FAF2E85D4A}" ShortID="696796827">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2F6F93B5-15EB-4263-9B92-3E12F2A91384}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Rain_Lvl5_01" ID="{55C0917B-BF8A-48A0-93BD-DCA5339D91F5}" ShortID="806261527" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="PCM As Input" ID="{E712A671-9647-44EF-8B1B-857926D620F0}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Rain_Lvl5_01" ID="{2E4D3289-7CDE-4AC0-A8F3-F0D6D8228F0A}" ShortID="32428613">
+											<Language>SFX</Language>
+											<AudioFile>Rain_Lvl5_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Rain_Lvl5_01" ID="{2E4D3289-7CDE-4AC0-A8F3-F0D6D8228F0A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Rain_Lvl5_02" ID="{4701C390-8FBD-43F1-856E-EB9D3DFA372E}" ShortID="150149667" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="PCM As Input" ID="{E712A671-9647-44EF-8B1B-857926D620F0}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Rain_Lvl5_02" ID="{9449033E-F214-4A04-8822-9A0FFF018432}" ShortID="947714481">
+											<Language>SFX</Language>
+											<AudioFile>Rain_Lvl5_02.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Rain_Lvl5_02" ID="{9449033E-F214-4A04-8822-9A0FFF018432}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Rain_Lvl5_03" ID="{EDA8CF23-6A40-4A00-B5DC-684B2F82ABC9}" ShortID="138207707" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="PCM As Input" ID="{E712A671-9647-44EF-8B1B-857926D620F0}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A8264C1-BC97-4865-AA4E-7712D697B1BB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Rain_Lvl5_03" ID="{14813CFA-B874-4907-ACAE-AAB15B98CE9F}" ShortID="244003508">
+											<Language>SFX</Language>
+											<AudioFile>Rain_Lvl5_03.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Rain_Lvl5_03" ID="{14813CFA-B874-4907-ACAE-AAB15B98CE9F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<BlendTrackList>
+						<BlendTrack Name="Rain" ID="{3D1FEC48-31CD-4616-9251-3396FBF7D3A3}" ShortID="141273989">
+							<PropertyList>
+								<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="LayerCrossFadeControlInput">
+									<ObjectRef Name="Rain_Intensity" ID="{515000EE-C395-4C19-B11D-6BEA9856C795}" WorkUnitID="{D87AB689-0B13-4E3C-8ADC-7EFE3D29CB80}"/>
+								</Reference>
+							</ReferenceList>
+							<BlendTrackAssocList>
+								<BlendTrackAssoc>
+									<ItemRef Name="Rain_Lvl1" ID="{9D21CE46-3647-432E-9701-EBA4092ABF14}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>0</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<RightEdgePos>29.922480620155</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+										<RightFadingSegmentShape>Exp1</RightFadingSegmentShape>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+								<BlendTrackAssoc>
+									<ItemRef Name="Rain_Lvl2" ID="{E838C3B6-C6C6-4559-A4F8-9B46121DD26C}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>9.6124031007752</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<LeftFadingSegmentShape>Log1</LeftFadingSegmentShape>
+										<RightEdgePos>50.5426356589147</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+										<RightFadingSegmentShape>Exp1</RightFadingSegmentShape>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+								<BlendTrackAssoc>
+									<ItemRef Name="Rain_Lvl3" ID="{9E2B8C8C-697E-4A58-AE97-9A07797FEA49}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>29.922480620155</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<LeftFadingSegmentShape>Log1</LeftFadingSegmentShape>
+										<RightEdgePos>70.2325581395349</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+										<RightFadingSegmentShape>Exp1</RightFadingSegmentShape>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+								<BlendTrackAssoc>
+									<ItemRef Name="Rain_Lvl4" ID="{86C1C013-B04F-4714-A4F5-A8EBCF7D26D8}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>50.5426356589147</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<LeftFadingSegmentShape>Log1</LeftFadingSegmentShape>
+										<RightEdgePos>90.5426356589147</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+										<RightFadingSegmentShape>Exp1</RightFadingSegmentShape>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+								<BlendTrackAssoc>
+									<ItemRef Name="Rain_Lvl5" ID="{5379F794-6870-4892-94DC-61FAF2E85D4A}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>70.2325581395349</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<LeftFadingSegmentShape>Log1</LeftFadingSegmentShape>
+										<RightEdgePos>100</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+							</BlendTrackAssocList>
+						</BlendTrack>
+					</BlendTrackList>
+				</BlendContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
