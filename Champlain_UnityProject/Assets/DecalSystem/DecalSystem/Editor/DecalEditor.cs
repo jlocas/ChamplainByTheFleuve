@@ -197,8 +197,8 @@ public class DecalEditor : Editor {
 	private void BuildDecal(Decal decal) {
 		MeshFilter filter = decal.GetComponent<MeshFilter>();
 		if(filter == null) filter = decal.gameObject.AddComponent<MeshFilter>();
-		if(decal.renderer == null) decal.gameObject.AddComponent<MeshRenderer>();
-		decal.renderer.material = decal.material;
+		if(decal.GetComponent<Renderer>() == null) decal.gameObject.AddComponent<MeshRenderer>();
+		decal.GetComponent<Renderer>().material = decal.material;
 
 		if(decal.material == null || decal.sprite == null) {
 			filter.mesh = null;

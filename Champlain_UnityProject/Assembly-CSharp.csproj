@@ -82,9 +82,14 @@
      <Compile Include="Assets\Scripts\PeopleRows.cs" />
      <Compile Include="Assets\Scripts\PeopleRowsEditor.cs" />
      <Compile Include="Assets\Scripts\RTPCPortal.cs" />
+     <Compile Include="Assets\Scripts\Rope.cs" />
+     <Compile Include="Assets\Scripts\Swing.cs" />
+     <Compile Include="Assets\Scripts\Swing1.cs" />
+     <Compile Include="Assets\Scripts\SwingEditor.cs" />
      <Compile Include="Assets\Scripts\Temple.cs" />
      <Compile Include="Assets\Scripts\TempleEditor.cs" />
      <Compile Include="Assets\Scripts\UsableObject.cs" />
+     <Compile Include="Assets\Scripts\WindAffector.cs" />
      <Compile Include="Assets\Scripts\Windspeed.cs" />
      <Compile Include="Assets\Scripts\WwiseRTPC.cs" />
      <Compile Include="Assets\Scripts\WwiseRTPCController.cs" />

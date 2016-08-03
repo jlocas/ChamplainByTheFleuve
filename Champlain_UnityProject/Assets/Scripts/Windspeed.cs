@@ -4,9 +4,16 @@ using System.Collections;
 public class Windspeed : MonoBehaviour {
 	public WwiseRTPCController rtpc;
 	public WindZone windzone;
+
 	[Space(10)]
 	[SerializeField]
 	private float output;
+	public float Output{
+		get{
+			return output;
+		}
+	}
+
 	[Space(10)]
 	[MinMaxRangeAttribute(0f, 100f)]
 	public MinMaxRange range;
@@ -18,9 +25,18 @@ public class Windspeed : MonoBehaviour {
 	private float octaveDamp;
 	[SerializeField]
 	private float mul;
-	[SerializeField]
 
+	[SerializeField]
 	private LerpNoise[] lerpers = new LerpNoise[4];
+
+	[SerializeField]
+	Vector3 direction;
+
+	public Vector3 Direction{
+		get{
+			return direction;
+		}
+	}
 
 	float maxPossible = 0f;
 	float maxDiv;
@@ -65,15 +81,14 @@ public class Windspeed : MonoBehaviour {
 		windzone.windTurbulence = output * 0.01f;
 	}
 
-	/*void UpdateWindzone(){
+	/*
+	void UpdateWindzone(){
 
 		wzlStart = wzlTarget;
 		wzlTarget = output;
 
 		wzlStartTime = Time.time;
 		wzlDistance = Mathf.Abs(wzlTarget - wzlStart);
-
-
 	}
 
 	void LerpWindzone(){
@@ -84,6 +99,6 @@ public class Windspeed : MonoBehaviour {
 
 		windzone.windMain = result * 0.01f;
 		windzone.windTurbulence = result * 0.001f;
-	}*/
-
+	}
+*/
 }
